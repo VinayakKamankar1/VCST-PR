@@ -44,7 +44,6 @@ Best For
 1.Large organizations with strict access control
 Teams that prefer a centralized system
 2.Handling large binary files
-
 3. Mercurial – Distributed VCS
 
 Overview
