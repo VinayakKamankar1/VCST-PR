@@ -1,0 +1,63 @@
+1. Git (Distributed VCS)
+
+Overview
+Git is the most widely used distributed version control system, allowing multiple developers to work on a project independently.
+
+Key Features
+
+1.Branching & Merging
+2.Distributed architecture (local repositories)
+3.Lightweight and fast
+4.Strong community support
+
+Popular Tools
+1.Git CLI – Command-line interface for Git operations
+2.GitHub – Cloud-based repository hosting
+3.GitLab – Git repository management + CI/CD integration
+4.Bitbucket – Git hosting with built-in CI/CD
+
+Best For
+Open-source and enterprise projects
+Teams working on distributed development
+DevOps and CI/CD pipelines
+
+2. Subversion (SVN) – Centralized VCS
+
+Overview
+Apache Subversion (SVN) is a centralized version control system that stores everything in a single central repository.
+
+Key Features
+
+1.Centralized repository with version tracking
+2.File locking to prevent conflicts
+3.Atomic commits to ensure consistency
+4.Good for binary file handling
+
+Popular Tools
+
+1.TortoiseSVN – Windows GUI for SVN
+2.VisualSVN – SVN integration for Visual Studio
+3.CollabNet SVN – Enterprise-grade SVN hosting
+
+Best For
+
+1.Large organizations with strict access control
+Teams that prefer a centralized system
+2.Handling large binary files
+3. Mercurial – Distributed VCS
+
+Overview
+Mercurial is a distributed version control system similar to Git but with a simpler interface.
+
+Key Features
+
+1.Distributed architecture (like Git)
+2.High performance for large repositories
+3.Simpler syntax than Git
+4.Better Windows support
+
+Popular Tools
+
+1.SourceTree – GUI for Mercurial & Git
+2.TortoiseHg – Windows GUI for Mercurial
+
