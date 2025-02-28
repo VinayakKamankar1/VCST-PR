@@ -26,9 +26,11 @@ A new branch is created to work on a specific feature .
 A file is uploaded and committed directly to the main branch.
 
 8. File Push By Suyash
+
 Suyash successfully pushes a file to the repository.
 
 9. File Push By Abhijit
+
 Abhijit successfully pushes a file to the repository.
  
 10. File Push Succesfully
