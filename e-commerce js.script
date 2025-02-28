@@ -1,0 +1,6 @@
+// Add functionality for 'Add to Cart' button
+document.querySelectorAll('.product button').forEach(button => {
+  button.addEventListener('click', (event) => {
+    alert('Product added to cart');
+  });
+});
