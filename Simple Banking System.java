@@ -1,66 +1,37 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My E-commerce Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My E-commerce Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
 
-public class SimpleBankingSystem {
+  <section id="products">
+    <h2>Featured Products</h2>
+    <div class="product">
+      <img src="product1.jpg" alt="Product 1">
+      <p>Product 1</p>
+      <p>$50</p>
+      <button>Add to Cart</button>
+    </div>
+    <!-- Add more product sections here -->
+  </section>
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        double balance = 0.0;
-
-        boolean Runing = true;
-        while (Runing) {
-            System.out.println("\nBanking Menu:");
-            System.out.println("1. Deposit");
-            System.out.println("2. Withdraw");
-            System.out.println("3. Check Balance");
-            System.out.println("4. View Transactions");
-            System.out.println("5. Exit");
-            System.out.print("Enter your choice: ");
-
-            int choice = scanner.nextInt();
-
-            switch (choice) {
-                case 1:
-                    System.out.print("Enter deposit amount: ");
-                    double depositAmount = scanner.nextDouble();
-                    balance += depositAmount; 
-                    transactions.add("Deposited: $" + depositAmount);
-                    System.out.println("Deposit successful!");
-                    break;
-                case 2:
-                    System.out.print("Enter withdrawal amount: ");
-                    double withdrawalAmount = scanner.nextDouble();
-                    if (withdrawalAmount <= balance) {
-                        balance -= withdrawalAmount;
-                        transactions.add("Withdrawn: $" + withdrawalAmount);
-                        System.out.println("Withdrawal successful!");
-                    } else {
-                        System.out.println("Insufficient funds!");
-                    }
-                    break;
-                case 3:
-                    System.out.println("Current Balance: $" + balance);
-                    break;
-                case 4:
-                    System.out.println("Transaction History:");
-                    for (String transaction : transactions) {
-                        System.out.println(transaction);
-                    }
-                    break;
-                case 5:
-                    Runing = false; // Exit the loop
-                    System.out.println("Exiting...");
-                    break;
-                default:
-                    System.out.println("Invalid choice. Please try again.");
-            }
-        }
-
-        System.out.println("\nFinal Account Balance: $" + balance);
-        System.out.println("Transaction History:");
-        for (String transaction : transactions) {
-            System.out.println(transaction);
-        }
-    }
-}
+  <footer>
+    <p>&copy; 2025 My E-commerce Store</p>
+  </footer>
+</body>
+</html>
