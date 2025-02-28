@@ -1,5 +1,7 @@
 # VCST-PR
 
+VCST PRACTICAL - STEPS FOR GITHUB
+
 HOST = Vinayak
 
 Collaborator = Abhijit , Suyash
